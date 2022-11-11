@@ -1,0 +1,22 @@
+{
+  "name": "krab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emnolope/Krab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emnolope/Krab/issues"
+  },
+  "homepage": "https://github.com/Emnolope/Krab#readme",
+  "dependencies": {
+    "yahoo-stock-api": "^2.0.0"
+  }
+}
