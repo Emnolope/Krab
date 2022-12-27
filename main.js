@@ -1,15 +1,17 @@
+alert("Change it for you.")
+
 var yahooFinance = require("yahoo-finance");
 
 yahooFinance.historical({
   symbol: 'AAPL',
-  from: '2012-01-01',
-  to: '2012-12-31',
+  from: '2020-01-01',
+  to: '2020-12-31',
   period: 'd',
 }, function (err, quotes) {
   //...
 });
 
-
+alert("Can you interpret?")
 
 
 // var tdaclient = require('tdaclient');

@@ -8,7 +8,16 @@
 </head>
 <body>
     <script>
+    javascript: (function() {
+        var script = document.createElement('script');
+        script.src = "//cdn.jsdelivr.net/npm/eruda";
+        document.body.appendChild(script);
+        script.onload = function() {
+            eruda.init()
+        }
+    })();
     </script>
+    <script src="main_browserify.js"></script>
     <div class="consolelog" id="consolelog"></div>
 </body>
 </html>
