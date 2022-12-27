@@ -1,5 +1,5 @@
 {
-  "name": "krab",
+  "name": "krabs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emnolope/Krab.git"
+    "url": "git+https://github.com/Emnolope/Krabs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Emnolope/Krab/issues"
+    "url": "https://github.com/Emnolope/Krabs/issues"
   },
-  "homepage": "https://github.com/Emnolope/Krab#readme",
+  "homepage": "https://github.com/Emnolope/Krabs#readme",
   "dependencies": {
     "browserify": "^17.0.0",
     "tdaclient": "^1.7.0",
